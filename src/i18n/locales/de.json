@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "exportPdf": "↓ PDF exportieren"
+  },
+  "header": {
+    "subtitle": "Frontend Engineer • Full Stack (lernend)"
+  },
+  "sections": {
+    "skills": "Kenntnisse",
+    "interests": "Interessen",
+    "about": "Über mich",
+    "experience": "Erfahrung",
+    "education": "Ausbildung",
+    "tech": "Technologien"
+  },
+  "softSkills": {
+    "title": "Soft Skills",
+    "items": [
+      "Eigenverantwortung & Ownership",
+      "Schnelle Einarbeitung in neue Technologien",
+      "Problemlösung unter Unklarheit",
+      "Kommunikation mit nicht-technischen Stakeholdern",
+      "Hohe Eigenmotivation & Begeisterungsfähigkeit"
+    ]
+  },
+  "languages": {
+    "title": "Sprachen",
+    "german": "Deutsch",
+    "germanLevel": "Muttersprache",
+    "english": "Englisch",
+    "englishLevel": "B2–C1"
+  },
+  "interests": {
+    "cycling": "🚴 Radfahren",
+    "bikepacking": "🏕️ Bikepacking",
+    "nature": "🌲 Natur",
+    "photography": "📷 Fotografie",
+    "dogs": "🐕 Hunde",
+    "openSource": "🌍 Open Source"
+  },
+  "about": {
+    "text": "Frontend Engineer mit 4+ Jahren Produktionserfahrung im Aufbau komplexer, kundenseitiger Webanwendungen. Mir ist Code wichtig, der hält – lesbar, wartbar und mit Blick auf die Menschen, die ihn benutzen. Aktuell Erweiterung in Richtung Full-Stack-Entwicklung durch ein professionelles Bootcamp (April–August 2026). Ich arbeite am besten mit Eigenverantwortung, schätze unklare Problemstellungen und fange bei kniffligen Problemen richtig an zu puzzlen."
+  },
+  "experience": {
+    "job1": {
+      "title": "Frontend Developer",
+      "company": "EXP (ehem. exentra) (2022–2026)",
+      "description": "Komplexe Webanwendung für einen internationalen Landmaschinenhersteller. Vue.js, TypeScript, AG Grid.",
+      "bullets": [
+        "Mehrere datenintensive Features entwickelt und ausgeliefert; gesamten Lebenszyklus von der Analyse bis zum Deployment verantwortet",
+        "Eigenständiges Datenanalyseprojekt durchgeführt: Python-Visualisierungen zur Analyse von Prototyp-Verschrottungskosten erstellt",
+        "Enge Zusammenarbeit mit Stakeholdern bei Kundendemos; schnelle Feedbackschleifen haben den Problemlösungsansatz verfeinert",
+        "Zur Codequalität beigetragen: Code-Reviews, Testabdeckung, Refactoring; Fokus auf Wartbarkeit und Skalierbarkeit"
+      ]
+    },
+    "job2": {
+      "title": "Selbstständig | E-Commerce",
+      "company": "Handcrafted Shops (2020–2022)",
+      "description": "E-Commerce-Projekte verschiedener Kunden. Shopware 5, Design-Umsetzung, Projektkoordination.",
+      "bullets": [
+        "Projektlebenszyklus verantwortet: Shop-Einrichtung, Design-Umsetzung, technische Integration, Kundenübergabe",
+        "Storefronts auf Shopware entworfen und aufgebaut; Umfang und Stakeholder-Kommunikation gemanagt",
+        "Systemdenken erlernt: Infrastrukturgrundlagen, Lieferantenmanagement, Kundensupport"
+      ]
+    },
+    "job4": {
+      "title": "Handelsvertreter",
+      "company": "Bofrost (2011–2012)",
+      "description": "Direktvertrieb von Tiefkühlprodukten im Außendienst.",
+      "bullets": []
+    },
+    "job5": {
+      "title": "Kassierer",
+      "company": "Rewe (2009–2011)",
+      "description": "Kassieren, Kundenbetreuung und Warenverräumung im Einzelhandel.",
+      "bullets": []
+    },
+    "job3": {
+      "title": "Produktion & E-Commerce",
+      "company": "BN-Pipes – Edelstahlsportauspuffanlagen (2013–2025, Nebenjob)",
+      "description": "Verschiedene Rollen in unterschiedlichen Zeitmodellen. Beginn in der Produktion, ab ca. 2017 schrittweise Übernahme aller E-Commerce- und IT-Belange.",
+      "bullets": [
+        "E-Commerce-Betrieb als einzige verfügbare Person übernommen; im Selbststudium weiterentwickelt, gemanagt und anfallende technische Probleme eigenständig gelöst",
+        "Online-Shop-Infrastruktur, Produktpflege und technischen Support aufgebaut und betreut",
+        "Grundlagen in Systemadministration, Lieferantenmanagement und Kundenkommunikation selbst erworben"
+      ]
+    }
+  },
+  "education": {
+    "item1": {
+      "title": "Full Stack Developer Programm",
+      "date": "Professionelles Bootcamp (Apr 2026–Aug 2026)",
+      "detail": "Node.js, Datenbankdesign, Python, React"
+    },
+    "item2": {
+      "title": "Frontend Developer Bootcamp",
+      "date": "(Mar 2022 - Jun 2022)",
+      "detail": "React, JavaScript, HTML, CSS"
+    },
+    "item3": {
+      "title": "Fachabitur",
+      "date": "BOS Scheyern (2012–2014)",
+      "detail": "Fachrichtiung Technik, Abschlussnote: 2,8"
+    },
+    "item4": {
+      "title": "Biologisch-technischer Assistent (BTA)",
+      "date": "Chemieschule Dr. Erwin Elhardt, München (2006–2009)",
+      "detail": "Molekularbiologie, Gentechnologie, Mikrobiologie, Biochemie, Zellkulturen"
+    }
+  },
+  "tech": {
+    "frontend": "Frontend:",
+    "backend": "Backend:",
+    "tools": "Tools:",
+    "approach": "Ansatz:",
+    "frontendValue": "Vue.js (stark), React (lernend), TypeScript, JavaScript, HTML, CSS, AG Grid",
+    "backendValue": "Python (lernend), Node.js (lernend), PostgreSQL, Fastify (Grundlagen)",
+    "toolsValue": "Git, Docker (Grundlagen), Modernes Tooling (Vite, Webpack), Testing",
+    "approachValue": "KI-gestützte Entwicklung (Claude Code, Cursor), Agile, Eigenverantwortlich, Scrum, Jira, Confluence"
+  },
+  "availability": {
+    "remote": "✓ Offen für Remote-Arbeit",
+    "relocate": "✓ Umzugsbereit",
+    "available": "✓ Sofort verfügbar"
+  }
+}

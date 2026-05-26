@@ -1,0 +1,98 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #111;
+  border-bottom: 4px solid #FF1744;
+  padding: 12px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  font-weight: 900;
+  color: #FFD700;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  border: 3px solid #FFD700;
+  padding: 4px 10px;
+  transform: rotate(-1deg);
+  display: inline-block;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.lang-switcher {
+  display: flex;
+  gap: 4px;
+}
+
+.lang-btn {
+  background: transparent;
+  color: #aaa;
+  border: 2px solid #444;
+  width: 38px;
+  padding: 5px 0;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.1s;
+  text-align: center;
+}
+
+.lang-btn:hover {
+  border-color: #FFD700;
+  color: #FFD700;
+}
+
+.lang-btn.active {
+  background: #FFD700;
+  color: #000;
+  border-color: #FFD700;
+}
+
+.lang-btn--en.active {
+  background: #FF1744;
+  color: #fff;
+  border-color: #FF1744;
+}
+
+.pdf-btn {
+  background: #FF1744;
+  color: #fff;
+  border: 3px solid #000;
+  width: 160px;
+  padding: 8px 0;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transform: rotate(1deg);
+  box-shadow: 4px 4px 0px #FFD700;
+  transition: transform 0.1s, box-shadow 0.1s;
+  text-align: center;
+}
+
+.pdf-btn:hover {
+  transform: rotate(1deg) translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #FFD700;
+}
+
+.pdf-btn:active {
+  transform: rotate(1deg) translate(2px, 2px);
+  box-shadow: 2px 2px 0px #FFD700;
+}
+
+@media print {
+  .navbar {
+    display: none;
+  }
+}
