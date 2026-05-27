@@ -422,6 +422,11 @@ h1 {
     color: #ddd;
 }
 
+.about-section p strong {
+    font-weight: 900;
+    color: #fff;
+}
+
 .experience-section h2 {
     font-size: 16px;
     margin-bottom: 20px;

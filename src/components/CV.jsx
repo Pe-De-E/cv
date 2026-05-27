@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import './CV.css'
 
-export default function CV() {
+export default function CV({ short = false }) {
   const { t } = useTranslation()
 
   return (
@@ -47,36 +47,28 @@ export default function CV() {
           </div>
         </div>
 
-        <div className="section">
-          <div className="section-title">{t('languages.title')}</div>
-          <div className="dot-bg">
-            <ul>
-              <li><strong>{t('languages.german')}</strong> – {t('languages.germanLevel')}</li>
-              <li><strong>{t('languages.english')}</strong> – {t('languages.englishLevel')}</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="section">
-          <div className="section-title">{t('sections.interests')}</div>
-          <div className="dot-bg">
-            <div className="skills-grid">
-              <div className="interest-tag">{t('interests.cycling')}</div>
-              <div className="interest-tag">{t('interests.bikepacking')}</div>
-              <div className="interest-tag">{t('interests.nature')}</div>
-              <div className="interest-tag">{t('interests.photography')}</div>
-              <div className="interest-tag">{t('interests.dogs')}</div>
-              <div className="interest-tag">{t('interests.openSource')}</div>
+{!short && (
+          <div className="section">
+            <div className="section-title">{t('sections.interests')}</div>
+            <div className="dot-bg">
+              <div className="skills-grid">
+                <div className="interest-tag">{t('interests.cycling')}</div>
+                <div className="interest-tag">{t('interests.bikepacking')}</div>
+                <div className="interest-tag">{t('interests.nature')}</div>
+                <div className="interest-tag">{t('interests.photography')}</div>
+                <div className="interest-tag">{t('interests.dogs')}</div>
+                <div className="interest-tag">{t('interests.openSource')}</div>
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
 
       {/* MAIN CONTENT */}
       <div className="main">
         <div className="about-section">
           <h2>{t('sections.about')}</h2>
-          <p>{t('about.text')}</p>
+          <p dangerouslySetInnerHTML={{ __html: t('about.text') }} />
         </div>
 
         {/* EXPERIENCE */}
@@ -122,17 +114,21 @@ export default function CV() {
             </div>
           </div>
 
-          <div className="job" style={{ marginTop: '25px' }}>
-            <div className="job-title">{t('experience.job4.title')}</div>
-            <div className="job-company">{t('experience.job4.company')}</div>
-            <div className="job-desc">{t('experience.job4.description')}</div>
-          </div>
+          {!short && (
+            <>
+              <div className="job" style={{ marginTop: '25px' }}>
+                <div className="job-title">{t('experience.job4.title')}</div>
+                <div className="job-company">{t('experience.job4.company')}</div>
+                <div className="job-desc">{t('experience.job4.description')}</div>
+              </div>
 
-          <div className="job" style={{ marginTop: '25px' }}>
-            <div className="job-title">{t('experience.job5.title')}</div>
-            <div className="job-company">{t('experience.job5.company')}</div>
-            <div className="job-desc">{t('experience.job5.description')}</div>
-          </div>
+              <div className="job" style={{ marginTop: '25px' }}>
+                <div className="job-title">{t('experience.job5.title')}</div>
+                <div className="job-company">{t('experience.job5.company')}</div>
+                <div className="job-desc">{t('experience.job5.description')}</div>
+              </div>
+            </>
+          )}
         </div>
 
         <div className="page-break" />

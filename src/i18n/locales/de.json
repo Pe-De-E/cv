@@ -1,6 +1,8 @@
 {
   "nav": {
-    "exportPdf": "↓ PDF exportieren"
+    "exportPdf": "↓ PDF exportieren",
+    "home": "Portfolio",
+    "cvLink": "Lebenslauf"
   },
   "header": {
     "subtitle": "Frontend Engineer • Full Stack (lernend)"
@@ -20,7 +22,9 @@
       "Schnelle Einarbeitung in neue Technologien",
       "Problemlösung unter Unklarheit",
       "Kommunikation mit nicht-technischen Stakeholdern",
-      "Hohe Eigenmotivation & Begeisterungsfähigkeit"
+      "Hohe Eigenmotivation & Begeisterungsfähigkeit",
+      "Deutsch – Muttersprache",
+      "Englisch – B2–C1"
     ]
   },
   "languages": {
@@ -39,7 +43,7 @@
     "openSource": "🌍 Open Source"
   },
   "about": {
-    "text": "Frontend Engineer mit 4+ Jahren Produktionserfahrung im Aufbau komplexer, kundenseitiger Webanwendungen. Mir ist Code wichtig, der hält – lesbar, wartbar und mit Blick auf die Menschen, die ihn benutzen. Aktuell Erweiterung in Richtung Full-Stack-Entwicklung durch ein professionelles Bootcamp (April–August 2026). Ich arbeite am besten mit Eigenverantwortung, schätze unklare Problemstellungen und fange bei kniffligen Problemen richtig an zu puzzlen."
+    "text": "Frontend Engineer mit <strong>4+ Jahren Produktionserfahrung</strong> im Aufbau komplexer, kundenseitiger Webanwendungen. Mir ist Code wichtig, der hält – lesbar, wartbar und mit Blick auf die Menschen, die ihn benutzen. Aktuell Erweiterung in Richtung <strong>Full-Stack-Entwicklung</strong> durch ein professionelles Bootcamp (April–August 2026). Ich arbeite am besten mit <strong>Eigenverantwortung</strong>, schätze unklare Problemstellungen und fange bei kniffligen Problemen richtig an zu puzzlen."
   },
   "experience": {
     "job1": {
