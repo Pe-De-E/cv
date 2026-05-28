@@ -96,7 +96,7 @@
   border-color: #FF1744;
 }
 
-.pdf-btn {
+.pdf-btn, a.pdf-btn {
   background: #FF1744;
   color: #fff;
   border: 3px solid #000;
@@ -111,14 +111,15 @@
   box-shadow: 4px 4px 0px #FFD700;
   transition: transform 0.1s, box-shadow 0.1s;
   text-align: center;
+  text-decoration: none;
 }
 
-.pdf-btn:hover {
+.pdf-btn:hover, a.pdf-btn:hover {
   transform: rotate(1deg) translate(-2px, -2px);
   box-shadow: 6px 6px 0px #FFD700;
 }
 
-.pdf-btn:active {
+.pdf-btn:active, a.pdf-btn:active {
   transform: rotate(1deg) translate(2px, 2px);
   box-shadow: 2px 2px 0px #FFD700;
 }

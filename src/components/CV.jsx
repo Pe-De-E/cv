@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import './CV.css'
 
-export default function CV({ short = false }) {
+export default function CV() {
   const { t } = useTranslation()
 
   return (
@@ -47,21 +47,19 @@ export default function CV({ short = false }) {
           </div>
         </div>
 
-{!short && (
-          <div className="section">
-            <div className="section-title">{t('sections.interests')}</div>
-            <div className="dot-bg">
-              <div className="skills-grid">
-                <div className="interest-tag">{t('interests.cycling')}</div>
-                <div className="interest-tag">{t('interests.bikepacking')}</div>
-                <div className="interest-tag">{t('interests.nature')}</div>
-                <div className="interest-tag">{t('interests.photography')}</div>
-                <div className="interest-tag">{t('interests.dogs')}</div>
-                <div className="interest-tag">{t('interests.openSource')}</div>
-              </div>
+        <div className="section">
+          <div className="section-title">{t('sections.interests')}</div>
+          <div className="dot-bg">
+            <div className="skills-grid">
+              <div className="interest-tag">{t('interests.cycling')}</div>
+              <div className="interest-tag">{t('interests.bikepacking')}</div>
+              <div className="interest-tag">{t('interests.nature')}</div>
+              <div className="interest-tag">{t('interests.photography')}</div>
+              <div className="interest-tag">{t('interests.dogs')}</div>
+              <div className="interest-tag">{t('interests.openSource')}</div>
             </div>
           </div>
-        )}
+        </div>
       </div>
 
       {/* MAIN CONTENT */}
@@ -114,21 +112,17 @@ export default function CV({ short = false }) {
             </div>
           </div>
 
-          {!short && (
-            <>
-              <div className="job" style={{ marginTop: '25px' }}>
-                <div className="job-title">{t('experience.job4.title')}</div>
-                <div className="job-company">{t('experience.job4.company')}</div>
-                <div className="job-desc">{t('experience.job4.description')}</div>
-              </div>
+          <div className="job" style={{ marginTop: '25px' }}>
+            <div className="job-title">{t('experience.job4.title')}</div>
+            <div className="job-company">{t('experience.job4.company')}</div>
+            <div className="job-desc">{t('experience.job4.description')}</div>
+          </div>
 
-              <div className="job" style={{ marginTop: '25px' }}>
-                <div className="job-title">{t('experience.job5.title')}</div>
-                <div className="job-company">{t('experience.job5.company')}</div>
-                <div className="job-desc">{t('experience.job5.description')}</div>
-              </div>
-            </>
-          )}
+          <div className="job" style={{ marginTop: '25px' }}>
+            <div className="job-title">{t('experience.job5.title')}</div>
+            <div className="job-company">{t('experience.job5.company')}</div>
+            <div className="job-desc">{t('experience.job5.description')}</div>
+          </div>
         </div>
 
         <div className="page-break" />
