@@ -230,7 +230,10 @@ h1 {
 }
 
 .skill-tag {
-    background: #FFD700;
+    background-color: #FFD700;
+    background-image: linear-gradient(to right, #FF1744 100%, transparent 100%);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
     border: 2px solid #000;
     padding: 6px 10px;
     font-size: 11px;
@@ -239,10 +242,16 @@ h1 {
     text-align: center;
     transform: rotate(-1deg);
     color: #000;
+    transition: background-size 0.4s ease;
+    cursor: default;
 }
 
 .skill-tag:nth-child(odd) {
     transform: rotate(1deg);
+}
+
+.skill-tag:hover {
+    background-size: var(--level, 50%) 100%;
 }
 
 .interest-tag {
