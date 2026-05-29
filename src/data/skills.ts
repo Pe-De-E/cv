@@ -8,7 +8,6 @@ export interface Skill {
   level: number
 }
 
-// Skill levels in % – update these as you improve
 export const SKILLS: Skill[] = [
   { name: 'JavaScript', key: 'javascript', level: 90 },
   { name: 'HTML/CSS',   key: 'htmlcss',    level: 90 },

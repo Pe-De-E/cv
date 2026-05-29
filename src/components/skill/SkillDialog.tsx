@@ -11,7 +11,7 @@ interface Position {
   transform: string
 }
 
-function calcPosition(anchorRect: DOMRect | null): Position {
+export function calcPosition(anchorRect: DOMRect | null): Position {
   if (!anchorRect) return { left: '50%', transform: 'translateX(-50%)', bottom: '50%' }
 
   let left = anchorRect.left + anchorRect.width / 2 - DIALOG_WIDTH / 2
