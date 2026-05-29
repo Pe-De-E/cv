@@ -112,16 +112,12 @@
       "detail": "Molecular biology, genetic engineering, microbiology, biochemistry, cell cultures"
     }
   },
-  "tech": {
-    "frontend": "Frontend:",
-    "backend": "Backend:",
-    "tools": "Tools:",
-    "approach": "Approach:",
-    "frontendValue": "Vue.js (strong), React (learning), TypeScript, JavaScript, HTML, CSS, AG Grid",
-    "backendValue": "Python (learning), Node.js (learning), PostgreSQL, Fastify (basics)",
-    "toolsValue": "Git, Docker (basics), Modern tooling (Vite, Webpack), Testing",
-    "approachValue": "AI-assisted development (Claude Code, Cursor), Agile, Ownership-driven, Scrum, Jira, Confluence"
-  },
+  "tech": [
+    { "label": "Frontend:", "value": "Vue.js (strong), React (learning), TypeScript, JavaScript, HTML, CSS, AG Grid" },
+    { "label": "Backend:", "value": "Python (learning), Node.js (learning), PostgreSQL, Fastify (basics)" },
+    { "label": "Tools:", "value": "Git, Docker (basics), Modern tooling (Vite, Webpack), Testing" },
+    { "label": "Approach:", "value": "AI-assisted development (Claude Code, Cursor), Agile, Ownership-driven, Scrum, Jira, Confluence" }
+  ],
   "skillDetail": {
     "back": "Back"
   },

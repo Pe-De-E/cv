@@ -112,16 +112,12 @@
       "detail": "Molekularbiologie, Gentechnologie, Mikrobiologie, Biochemie, Zellkulturen"
     }
   },
-  "tech": {
-    "frontend": "Frontend:",
-    "backend": "Backend:",
-    "tools": "Tools:",
-    "approach": "Ansatz:",
-    "frontendValue": "Vue.js (stark), React (lernend), TypeScript, JavaScript, HTML, CSS, AG Grid",
-    "backendValue": "Python (lernend), Node.js (lernend), PostgreSQL, Fastify (Grundlagen)",
-    "toolsValue": "Git, Docker (Grundlagen), Modernes Tooling (Vite, Webpack), Testing",
-    "approachValue": "KI-gestützte Entwicklung (Claude Code, Cursor), Agile, Eigenverantwortlich, Scrum, Jira, Confluence"
-  },
+  "tech": [
+    { "label": "Frontend:", "value": "Vue.js (stark), React (lernend), TypeScript, JavaScript, HTML, CSS, AG Grid" },
+    { "label": "Backend:", "value": "Python (lernend), Node.js (lernend), PostgreSQL, Fastify (Grundlagen)" },
+    { "label": "Tools:", "value": "Git, Docker (Grundlagen), Modernes Tooling (Vite, Webpack), Testing" },
+    { "label": "Ansatz:", "value": "KI-gestützte Entwicklung (Claude Code, Cursor), Agile, Eigenverantwortlich, Scrum, Jira, Confluence" }
+  ],
   "skillDetail": {
     "back": "Zurück"
   },
