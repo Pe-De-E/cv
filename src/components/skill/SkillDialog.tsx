@@ -1,26 +1,7 @@
-import { useEffect, useRef, useState } from 'react'
+import { type MouseEvent, useEffect, useRef, useState } from 'react'
 import { Skill } from '../../data/skills'
+import { calcPosition, type Position } from './calcPosition'
 import './SkillDialog.css'
-
-const DIALOG_WIDTH = 360
-const GAP = -30
-
-interface Position {
-  left: string
-  bottom: string
-  transform: string
-}
-
-export function calcPosition(anchorRect: DOMRect | null): Position {
-  if (!anchorRect) return { left: '50%', transform: 'translateX(-50%)', bottom: '50%' }
-
-  let left = anchorRect.left + anchorRect.width / 2 - DIALOG_WIDTH / 2
-  left = Math.max(8, Math.min(left, window.innerWidth - DIALOG_WIDTH - 8))
-
-  const bottomFromViewport = window.innerHeight - anchorRect.top + GAP
-
-  return { left: `${left}px`, bottom: `${bottomFromViewport}px`, transform: 'none' }
-}
 
 interface Props {
   skill: Skill
@@ -43,14 +24,15 @@ export default function SkillDialog({ skill, anchorRect, description, onClose }:
     return () => dialog.removeEventListener('cancel', handleCancel)
   }, [onClose, anchorRect])
 
-  const handleBackdropClick = (e: React.MouseEvent<HTMLDialogElement>) => {
+  const handleBackdropClick = (e: MouseEvent<HTMLDialogElement>) => {
     if (e.target === dialogRef.current) onClose()
   }
 
   return (
+    // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions, jsx-a11y/click-events-have-key-events
     <dialog ref={dialogRef} className="skill-dialog" style={style} onClick={handleBackdropClick}>
       <div className="skill-dialog__inner">
-        <button className="skill-dialog__close" onClick={onClose}>✕</button>
+        <button className="skill-dialog__close" onClick={onClose} aria-label="Schließen">✕</button>
         <h3 className="skill-dialog__title">{skill.name}</h3>
         <div className="skill-dialog__bar-track">
           <div

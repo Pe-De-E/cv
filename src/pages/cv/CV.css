@@ -304,12 +304,13 @@ h1 {
     padding: 6px 10px;
     font-size: 11px;
     font-weight: bold;
+    font-family: inherit;
     text-transform: uppercase;
     text-align: center;
     transform: rotate(-1deg);
     color: #000;
     transition: background-size 0.4s ease;
-    cursor: default;
+    cursor: pointer;
 }
 
 .skill-tag:nth-child(odd) {

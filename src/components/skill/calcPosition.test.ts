@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest'
-import { calcPosition } from './SkillDialog'
+import { calcPosition } from './calcPosition'
 
 beforeEach(() => {
   Object.defineProperty(window, 'innerWidth', { value: 1024, writable: true })
