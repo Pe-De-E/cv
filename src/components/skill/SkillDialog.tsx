@@ -1,25 +1,37 @@
 import { useEffect, useRef, useState } from 'react'
+import { Skill } from '../../data/skills'
 import './SkillDialog.css'
 
 const DIALOG_WIDTH = 360
 const GAP = -30
 
-function calcPosition(anchorRect) {
+interface Position {
+  left: string
+  bottom: string
+  transform: string
+}
+
+function calcPosition(anchorRect: DOMRect | null): Position {
   if (!anchorRect) return { left: '50%', transform: 'translateX(-50%)', bottom: '50%' }
 
-  // Horizontal: centered on the anchor, clamped to viewport
   let left = anchorRect.left + anchorRect.width / 2 - DIALOG_WIDTH / 2
   left = Math.max(8, Math.min(left, window.innerWidth - DIALOG_WIDTH - 8))
 
-  // Vertical: above the anchor element
   const bottomFromViewport = window.innerHeight - anchorRect.top + GAP
 
   return { left: `${left}px`, bottom: `${bottomFromViewport}px`, transform: 'none' }
 }
 
-export default function SkillDialog({ skill, anchorRect, description, onClose }) {
-  const dialogRef = useRef(null)
-  const [style, setStyle] = useState({})
+interface Props {
+  skill: Skill
+  anchorRect: DOMRect | null
+  description: string
+  onClose: () => void
+}
+
+export default function SkillDialog({ skill, anchorRect, description, onClose }: Props) {
+  const dialogRef = useRef<HTMLDialogElement>(null)
+  const [style, setStyle] = useState<Position>({ left: '', bottom: '', transform: '' })
 
   useEffect(() => {
     const dialog = dialogRef.current
@@ -31,7 +43,7 @@ export default function SkillDialog({ skill, anchorRect, description, onClose })
     return () => dialog.removeEventListener('cancel', handleCancel)
   }, [onClose, anchorRect])
 
-  const handleBackdropClick = (e) => {
+  const handleBackdropClick = (e: React.MouseEvent<HTMLDialogElement>) => {
     if (e.target === dialogRef.current) onClose()
   }
 

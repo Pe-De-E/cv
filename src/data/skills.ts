@@ -1,5 +1,15 @@
+import type de from '../i18n/locales/de.json'
+
+export type SkillKey = keyof typeof de['skillDetails']
+
+export interface Skill {
+  name: string
+  key: SkillKey
+  level: number
+}
+
 // Skill levels in % – update these as you improve
-export const SKILLS = [
+export const SKILLS: Skill[] = [
   { name: 'JavaScript', key: 'javascript', level: 90 },
   { name: 'HTML/CSS',   key: 'htmlcss',    level: 90 },
   { name: 'Vue.js',     key: 'vuejs',      level: 85 },

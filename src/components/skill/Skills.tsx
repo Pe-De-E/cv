@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { SKILLS } from '../../data/skills'
+import { Skill, SKILLS } from '../../data/skills'
 import SkillTag from './SkillTag'
 
 export default function Skills() {
   const { t } = useTranslation()
-  const [selected, setSelected] = useState(null)
+  const [selected, setSelected] = useState<Skill | null>(null)
 
   // Early return: zeigt Detail-Ansicht wenn ein Skill angeklickt wurde
   if (selected) {
