@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { SKILLS } from '../data/skills'
+import { SKILLS } from '../../data/skills'
 import SkillTag from './SkillTag'
 
 export default function Skills() {
