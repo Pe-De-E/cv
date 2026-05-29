@@ -1,19 +1,6 @@
 import { useTranslation } from 'react-i18next'
+import Skills from './Skills'
 import './CV.css'
-
-// Skill levels in % – update these as you improve
-const SKILL_LEVELS = {
-  'JavaScript': 90,
-  'HTML/CSS':   90,
-  'Vue.js':     85,
-  'Git':        80,
-  'TypeScript': 75,
-  'React':      55,
-  'Node.js':    40,
-  'PostgreSQL': 35,
-  'Python':     25,
-  'Docker':     25,
-}
 
 export default function CV() {
   const { t } = useTranslation()
@@ -35,17 +22,7 @@ export default function CV() {
         <div className="section">
           <div className="section-title">{t('sections.skills')}</div>
           <div className="dot-bg">
-            <div className="skills-grid">
-              {Object.entries(SKILL_LEVELS).map(([skill, level]) => (
-                <div
-                  key={skill}
-                  className="skill-tag"
-                  style={{ '--level': `${level}%` }}
-                >
-                  {skill}
-                </div>
-              ))}
-            </div>
+            <Skills />
           </div>
         </div>
 

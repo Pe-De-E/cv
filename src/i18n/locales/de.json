@@ -122,6 +122,21 @@
     "toolsValue": "Git, Docker (Grundlagen), Modernes Tooling (Vite, Webpack), Testing",
     "approachValue": "KI-gestützte Entwicklung (Claude Code, Cursor), Agile, Eigenverantwortlich, Scrum, Jira, Confluence"
   },
+  "skillDetail": {
+    "back": "Zurück"
+  },
+  "skillDetails": {
+    "javascript": "Die Basis von allem. Täglich seit 4+ Jahren im Einsatz – von komplexer UI-Logik bis hin zu Datenverarbeitung.",
+    "htmlcss": "Starke Grundlage durch jahrelange Praxis. Dieses Portfolio-Design ist ein gutes Beispiel dafür, was ich damit mache.",
+    "vuejs": "Mein Hauptframework. 4+ Jahre Produktionserfahrung bei EXP – komplexe, datenintensive Webanwendungen für einen internationalen Kunden.",
+    "git": "Täglich im Einsatz, in jedem Projekt. Branching, Reviews, saubere Commit-Historien.",
+    "typescript": "Täglich bei EXP zusammen mit Vue.js eingesetzt. Typsicherheit ist für mich mittlerweile selbstverständlich.",
+    "react": "Lerne ich aktiv – im Bootcamp und in diesem Portfolio. Der Umstieg von Vue fühlt sich vertraut an.",
+    "nodejs": "Lerne ich gerade im Bootcamp. Erste eigene APIs mit Fastify gebaut.",
+    "postgresql": "Lerne ich im Bootcamp – Datenbankdesign, Abfragen, Relationen.",
+    "python": "Für ein Datenanalyseprojekt bei EXP eingesetzt (Visualisierungen zu Prototyp-Verschrottungskosten). Lerne es weiter im Bootcamp.",
+    "docker": "Grundlagen bekannt – Container, Images, einfache Compose-Setups."
+  },
   "availability": {
     "remote": "✓ Offen für Remote-Arbeit",
     "relocate": "✓ Umzugsbereit",

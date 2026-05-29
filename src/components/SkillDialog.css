@@ -1,0 +1,78 @@
+.skill-dialog {
+  border: 4px solid #fff;
+  background: #222;
+  color: #eee;
+  padding: 0;
+  width: 360px;
+  max-width: calc(100vw - 16px);
+  box-shadow: 8px 8px 0px #FFD700;
+  position: fixed;
+  margin: 0;
+}
+
+.skill-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.skill-dialog__inner {
+  padding: 24px;
+  position: relative;
+}
+
+.skill-dialog__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #FF1744;
+  border: 2px solid #000;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  font-size: 12px;
+  font-weight: 900;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.skill-dialog__title {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: #fff;
+  margin-bottom: 16px;
+  padding-right: 32px;
+}
+
+.skill-dialog__bar-track {
+  background: #333;
+  border: 2px solid #444;
+  height: 20px;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.skill-dialog__bar-fill {
+  background: #FF1744;
+  height: 100%;
+  transition: width 0.6s ease;
+}
+
+.skill-dialog__bar-label {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.skill-dialog__description {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #ddd;
+}
