@@ -11,7 +11,7 @@
     "test": "vitest",
     "test:run": "vitest run",
     "coverage": "vitest run --coverage",
-    "e2e": "npx playwright test --project=chromium"
+    "e2e": "npx playwright test --project=chromium --project='Mobile Chrome'"
   },
   "dependencies": {
     "i18next": "^26.2.0",
