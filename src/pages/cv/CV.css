@@ -531,13 +531,65 @@ h1 {
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
+    .container {
+        padding: 24px 20px;
+    }
+
     .sidebar {
         float: none;
         width: 100%;
         margin-right: 0;
+        margin-top: 0;
     }
+
     .main {
         clear: both;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 16px 14px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .job {
+        transform: none;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .job:nth-child(odd) {
+        transform: none;
+        margin-left: 0;
+    }
+
+    .education {
+        transform: none;
+        margin-left: 0;
+    }
+
+    .skills-section {
+        transform: none;
+        margin-left: 0;
+    }
+
+    .section:nth-child(3),
+    .section:nth-child(4) {
+        transform: rotate(-1deg);
+        margin-left: 0;
+    }
+
+    .accent-box {
+        transform: none;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr 1fr;
     }
 }
 

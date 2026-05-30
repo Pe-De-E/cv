@@ -124,6 +124,32 @@
   box-shadow: 2px 2px 0px #FFD700;
 }
 
+@media (max-width: 600px) {
+  .navbar {
+    padding: 10px 14px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .navbar-nav {
+    order: 3;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .navbar-actions {
+    margin-left: auto;
+    gap: 10px;
+  }
+
+  .pdf-btn, a.pdf-btn {
+    width: auto;
+    padding: 7px 12px;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+}
+
 @media print {
   .navbar {
     display: none;
