@@ -34,3 +34,9 @@ jobs:
       - name: Coverage report
         uses: davelosert/vitest-coverage-report-action@v2
         if: always()
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium
+
+      - name: E2E Tests
+        run: npm run e2e
