@@ -5,7 +5,7 @@
     "cvLink": "CV"
   },
   "header": {
-    "subtitle": "Frontend Engineer • Full Stack (Learning)"
+    "subtitle": "Frontend Engineer • Full Stack"
   },
   "sections": {
     "skills": "Skills",
@@ -22,9 +22,8 @@
       "Fast learner across new technologies",
       "Problem-solving in ambiguous situations",
       "Communication with non-technical stakeholders",
-      "Self-motivated with a strong drive for deep work",
-      "German – Native",
-      "English – B2–C1"
+      "When something grabs me, I go deep",
+      "Care over speed — doing things right, not just done"
     ]
   },
   "languages": {
@@ -67,26 +66,12 @@
         "Built practical knowledge in systems thinking: infrastructure fundamentals, vendor management, customer support"
       ]
     },
-    "job4": {
-      "title": "Sales Representative",
-      "company": "Bofrost (2011–2012)",
-      "description": "Direct sales of frozen food products in field service.",
-      "bullets": []
-    },
-    "job5": {
-      "title": "Cashier",
-      "company": "Rewe (2009–2011)",
-      "description": "Checkout, customer service and shelf stacking in retail.",
-      "bullets": []
-    },
     "job3": {
       "title": "Production & E-Commerce",
       "company": "BN-Pipes – Stainless Steel Sports Exhausts (2013–2025, part-time)",
-      "description": "Various roles in different time models. Started in production, gradually took over all e-commerce and IT responsibilities from around 2017.",
+      "description": "Started in production, learned out of curiosity, took over out of necessity — e-commerce and IT on Shopware 5, entirely self-taught.",
       "bullets": [
-        "Stepped in as the only available person to take on e-commerce operations; self-taught, expanded and managed the platform over time",
-        "Handled online shop infrastructure, product management, and technical troubleshooting independently",
-        "Built practical knowledge in system administration, vendor management, and customer communication"
+        "Took over an existing Shopware 5 shop and ran it independently — implemented requests, figured out problems along the way"
       ]
     }
   },

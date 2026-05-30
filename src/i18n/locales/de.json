@@ -5,7 +5,7 @@
     "cvLink": "Lebenslauf"
   },
   "header": {
-    "subtitle": "Frontend Engineer • Full Stack (lernend)"
+    "subtitle": "Frontend Engineer • Full Stack"
   },
   "sections": {
     "skills": "Kenntnisse",
@@ -22,9 +22,8 @@
       "Schnelle Einarbeitung in neue Technologien",
       "Problemlösung unter Unklarheit",
       "Kommunikation mit nicht-technischen Stakeholdern",
-      "Hohe Eigenmotivation & Begeisterungsfähigkeit",
-      "Deutsch – Muttersprache",
-      "Englisch – B2–C1"
+      "Wenn mich etwas packt, gehe ich in die Tiefe",
+      "Sorgfalt vor Geschwindigkeit — Dinge richtig machen, nicht nur fertig"
     ]
   },
   "languages": {
@@ -67,26 +66,12 @@
         "Systemdenken erlernt: Infrastrukturgrundlagen, Lieferantenmanagement, Kundensupport"
       ]
     },
-    "job4": {
-      "title": "Handelsvertreter",
-      "company": "Bofrost (2011–2012)",
-      "description": "Direktvertrieb von Tiefkühlprodukten im Außendienst.",
-      "bullets": []
-    },
-    "job5": {
-      "title": "Kassierer",
-      "company": "Rewe (2009–2011)",
-      "description": "Kassieren, Kundenbetreuung und Warenverräumung im Einzelhandel.",
-      "bullets": []
-    },
     "job3": {
       "title": "Produktion & E-Commerce",
       "company": "BN-Pipes – Edelstahlsportauspuffanlagen (2013–2025, Nebenjob)",
-      "description": "Verschiedene Rollen in unterschiedlichen Zeitmodellen. Beginn in der Produktion, ab ca. 2017 schrittweise Übernahme aller E-Commerce- und IT-Belange.",
+      "description": "Gestartet in der Produktion, gelernt aus Neugier, übernommen aus Notwendigkeit — E-Commerce und IT auf Shopware 5, vollständig im Selbststudium.",
       "bullets": [
-        "E-Commerce-Betrieb als einzige verfügbare Person übernommen; im Selbststudium weiterentwickelt, gemanagt und anfallende technische Probleme eigenständig gelöst",
-        "Online-Shop-Infrastruktur, Produktpflege und technischen Support aufgebaut und betreut",
-        "Grundlagen in Systemadministration, Lieferantenmanagement und Kundenkommunikation selbst erworben"
+        "Bestehenden Shopware 5-Shop übernommen und eigenständig betrieben — Anforderungen umgesetzt, Probleme selbst herausgefunden"
       ]
     }
   },
