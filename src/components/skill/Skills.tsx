@@ -6,6 +6,7 @@ import SkillTag from './SkillTag'
 export default function Skills() {
   const { t } = useTranslation()
   const [selected, setSelected] = useState<Skill | null>(null)
+  const topSkills = [...SKILLS].sort((a, b) => b.level - a.level).slice(0, 10)
 
   // Early return: zeigt Detail-Ansicht wenn ein Skill angeklickt wurde
   if (selected) {
@@ -29,7 +30,7 @@ export default function Skills() {
   return (
     <div className="dot-bg">
       <div className="skills-grid">
-        {SKILLS.map((skill) => (
+        {topSkills.map((skill) => (
           <SkillTag key={skill.name} skill={skill} onClick={setSelected} />
         ))}
       </div>

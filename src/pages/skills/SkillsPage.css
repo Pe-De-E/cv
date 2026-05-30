@@ -1,0 +1,119 @@
+.skills-page {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.skills-page__title {
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.skills-page__filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.skills-page__filter {
+  background: transparent;
+  border: 2px solid #444;
+  color: #aaa;
+  padding: 6px 16px;
+  font-size: 11px;
+  font-weight: 900;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.skills-page__filter:hover {
+  border-color: #FFD700;
+  color: #FFD700;
+}
+
+.skills-page__filter--active {
+  background: #FFD700;
+  border-color: #FFD700;
+  color: #000;
+}
+
+.skills-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.skills-page__detail {
+  background: #2a2a2a;
+  border: 2px solid #FF1744;
+  padding: 20px;
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+.skills-page__detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.skills-page__detail-name {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+.skills-page__detail-close {
+  background: transparent;
+  border: none;
+  color: #aaa;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.skills-page__detail-close:hover {
+  color: #fff;
+}
+
+.skills-page__bar-track {
+  background: #333;
+  border: 2px solid #444;
+  height: 20px;
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.skills-page__bar-fill {
+  background: #FF1744;
+  height: 100%;
+  transition: width 0.6s ease;
+}
+
+.skills-page__bar-label {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.skills-page__detail-desc {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #ddd;
+}

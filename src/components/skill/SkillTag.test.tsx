@@ -3,7 +3,7 @@ import { render, screen, fireEvent } from '@testing-library/react'
 import SkillTag from './SkillTag'
 import type { Skill } from '../../data/skills'
 
-const skill: Skill = { name: 'TypeScript', key: 'typescript', level: 75 }
+const skill: Skill = { name: 'TypeScript', key: 'typescript', level: 75, category: 'frontend' }
 
 describe('SkillTag', () => {
   it('renders the skill name', () => {

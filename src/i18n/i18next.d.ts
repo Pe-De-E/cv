@@ -4,7 +4,7 @@ type Job = { title: string; company: string; description: string; bullets: strin
 type TechItem = { label: string; value: string }
 
 interface Translation {
-  nav: typeof de['nav']
+  nav: typeof de['nav'] & { skills: string }
   header: typeof de['header']
   sections: typeof de['sections']
   softSkills: { title: string; items: string[] }

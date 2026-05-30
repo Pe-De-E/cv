@@ -10,7 +10,7 @@ vi.mock('react-i18next', () => ({
   useTranslation: () => ({ t: (key: string) => key }),
 }))
 
-const skill = { name: 'TypeScript', key: 'typescript' as const, level: 75 }
+const skill = { name: 'TypeScript', key: 'typescript' as const, level: 75, category: 'frontend' as const }
 
 describe('Accessibility', () => {
   it('SkillTag has no violations', async () => {

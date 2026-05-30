@@ -44,6 +44,39 @@ test.describe('CV-Seite', () => {
   })
 })
 
+test.describe('Skills-Seite', () => {
+  test('Navigation zur Skills-Seite funktioniert', async ({ page }) => {
+    await page.getByRole('link', { name: /skills/i }).click()
+    await expect(page).toHaveURL('/skills')
+  })
+
+  test('zeigt alle Skills', async ({ page }) => {
+    await page.goto('/skills')
+    await expect(page.getByRole('button', { name: 'JavaScript', exact: true })).toBeVisible()
+    await expect(page.getByRole('button', { name: 'Docker', exact: true })).toBeVisible()
+  })
+
+  test('Frontend-Filter zeigt nur Frontend-Skills', async ({ page }) => {
+    await page.goto('/skills')
+    await page.getByRole('button', { name: 'Frontend', exact: true }).click()
+    await expect(page.getByRole('button', { name: 'Vue.js', exact: true })).toBeVisible()
+    await expect(page.getByRole('button', { name: 'Docker', exact: true })).not.toBeVisible()
+  })
+
+  test('Klick auf Skill zeigt Detail-Ansicht', async ({ page }) => {
+    await page.goto('/skills')
+    await page.getByRole('button', { name: 'TypeScript', exact: true }).click()
+    await expect(page.getByText('75%')).toBeVisible()
+  })
+
+  test('Schließen-Button versteckt Detail-Ansicht', async ({ page }) => {
+    await page.goto('/skills')
+    await page.getByRole('button', { name: 'TypeScript', exact: true }).click()
+    await page.getByRole('button', { name: '✕' }).click()
+    await expect(page.getByText('75%')).not.toBeVisible()
+  })
+})
+
 test.describe('Skill-Interaktion', () => {
   test('Klick auf Skill zeigt Detail-Ansicht', async ({ page }) => {
     await page.getByRole('button', { name: 'TypeScript', exact: true }).click()

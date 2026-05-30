@@ -2,7 +2,8 @@
   "nav": {
     "exportPdf": "↓ CV herunterladen",
     "home": "Portfolio",
-    "cvLink": "Lebenslauf"
+    "cvLink": "Lebenslauf",
+    "skills": "Skills"
   },
   "header": {
     "subtitle": "Frontend Engineer • Full Stack"
