@@ -9,6 +9,9 @@ on:
 jobs:
   ci:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
 
     steps:
       - uses: actions/checkout@v4
@@ -25,5 +28,9 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      - name: Test
-        run: npm run test:run
+      - name: Test & Coverage
+        run: npm run coverage
+
+      - name: Coverage report
+        uses: davelosert/vitest-coverage-report-action@v2
+        if: always()
