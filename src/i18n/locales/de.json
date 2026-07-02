@@ -1,6 +1,6 @@
 {
   "nav": {
-    "exportPdf": "↓ CV herunterladen",
+    "viewResume": "Lebenslauf ansehen",
     "home": "Portfolio",
     "cvLink": "Lebenslauf",
     "skills": "Skills"
@@ -123,5 +123,87 @@
     "remote": "✓ Offen für Remote-Arbeit",
     "relocate": "✓ Umzugsbereit",
     "available": "✓ Sofort verfügbar"
+  },
+  "resume": {
+    "role": "Frontend Engineer · Full-Stack (lernend)",
+    "sectionLabels": {
+      "about": "Über mich",
+      "highlights": "Highlights",
+      "tech": "Technologien",
+      "communication": "Kommunikation & Arbeitsweise",
+      "experience": "Erfahrung",
+      "projects": "Projekte (2)",
+      "education": "Ausbildung"
+    },
+    "about": "Ich bin Frontend Engineer mit mehr als 4 Jahren Erfahrung im Aufbau komplexer, kundenseitiger Webanwendungen. Mein Kern-Stack ist <strong>Vue.js + TypeScript</strong>. Aktuell erweitere ich mein Profil in Richtung Full-Stack durch ein professionelles Bootcamp (Apr–Aug 2026). Ich arbeite eigenverantwortlich, denke in Systemen und bringe technische Inhalte verständlich auf den Punkt – ob in Kundendemos, Sprint-Reviews oder Retrospektiven. Komplexe Zusammenhänge erfasse ich schnell und kommuniziere sie klar, auch gegenüber nicht-technischen Gesprächspartnern. Mir ist nicht nur die Qualität des Codes wichtig, sondern auch die Qualität der Zusammenarbeit.",
+    "highlights": [
+      { "num": "4+", "text": "Jahre Erfahrung als Frontend Developer" },
+      { "num": "2", "text": "Solo-Fullstack-Projekte von Grund auf gebaut" },
+      { "num": "3", "text": "Vollständige Projektlebenszyklen eigenverantwortlich getragen" }
+    ],
+    "tech": {
+      "frontend": { "label": "Frontend", "core": ["Vue.js", "TypeScript", "JavaScript", "AG Grid", "Nuxt.js"], "dev": ["React"] },
+      "backend": { "label": "Backend", "tool": ["Node.js", "Python", "PostgreSQL", "Fastify"] },
+      "toolsMethod": { "label": "Tools & Methodik", "core": ["Claude Code", "Vite"], "tool": ["Git", "Docker", "Agile/Scrum"] },
+      "languages": { "label": "Sprachen", "core": ["Deutsch (Muttersprache)"], "tool": ["Englisch (B2–C1)"] }
+    },
+    "legend": [
+      { "variant": "core", "swatch": "gelb", "text": "Kernkompetenz" },
+      { "variant": "dev", "swatch": "umrandet", "text": "In Entwicklung" },
+      { "variant": "tool", "swatch": "grau", "text": "Tool / Methodik" }
+    ],
+    "communication": [
+      { "title": "Stakeholder & Team", "text": "Ich habe Erfahrung in Kundendemos, Sprint-Reviews und Retrospektiven. Technische Sachverhalte arbeite ich für nicht-technische Gesprächspartner greifbar und entscheidungsreif auf." },
+      { "title": "Selbstständiges Arbeiten", "text": "Vom ersten Anforderungsgespräch bis zum Go-live liegt der gesamte Lebenszyklus eines Features bei mir in einer Hand. Auch bei unklaren Vorgaben komme ich zu einem strukturierten Ergebnis." },
+      { "title": "Neue Technologien", "text": "Mehrfach habe ich neue Technologien ohne formale Einführung produktiv eingesetzt. Am schnellsten lerne ich durch das direkte Arbeiten mit den Technologien selbst." },
+      { "title": "KI-gestützte Entwicklung", "text": "Claude Code setze ich gezielt ein – als Werkzeug zur Beschleunigung von Iteration und zur Qualitätssicherung, nicht als Ersatz für eigenes Verständnis." },
+      { "title": "Feedback & Iteration", "text": "Ich arbeite gerne in kurzen Schleifen: früh testen, direkt Rückmeldung einholen und schnell anpassen. Altavio habe ich von Anfang an mit echten Nutzern und TikTok-Testing validiert." },
+      { "title": "Dokumentation & Wissen", "text": "Ich denke in Systemen und halte Wissen strukturiert fest – in Obsidian, Projekt-Notizen oder klaren Kommentaren im Code. Wissen soll übertragbar und nachvollziehbar bleiben." },
+      { "title": "Eigeninitiative", "text": "Ich warte nicht darauf, dass mir jemand sagt was ich als nächstes lernen soll. Private Projekte wie Altavio entstehen aus echtem Interesse – als Lernfeld, Experimentierraum und Nachweis." },
+      { "title": "Qualitätsbewusstsein", "text": "Qualität endet für mich nicht bei sauberem Code. Ich denke auch an Wartbarkeit, Nutzererfahrung und die Menschen die mit dem Ergebnis arbeiten – beim Entwickeln und beim Reviewen." }
+    ],
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "EXP (ehem. exentra)",
+        "date": "2022–2026",
+        "bullets": [
+          "Komplexe Webanwendung für einen <strong>internationalen Landmaschinenhersteller</strong> mitentwickelt – <strong class=\"hl\">Vue.js, TypeScript, AG Grid</strong>",
+          "Mehrere datenintensive Features <strong class=\"hl\">eigenverantwortlich</strong> entwickelt und deployed – <strong class=\"hl\">vollständiger Lebenszyklus</strong> von der Analyse bis zur Produktion",
+          "Eigenständiges <strong>Datenanalyseprojekt</strong> mit Python-Visualisierungen zur Analyse von Prototyp-Verschrottungskosten durchgeführt",
+          "<strong class=\"hl\">Kundendemos</strong> vorbereitet und durchgeführt; <strong class=\"hl\">Sprint-Reviews und Retrospektiven</strong> aktiv mitgestaltet",
+          "Zu <strong class=\"hl\">Code-Reviews, Testabdeckung und Refactoring</strong> beigetragen – konsequenter Fokus auf Wartbarkeit"
+        ]
+      },
+      {
+        "title": "Selbstständig · E-Commerce",
+        "company": "Handcrafted Shops",
+        "date": "2020–2022",
+        "bullets": [
+          "<strong class=\"hl\">Vollständigen Projektlebenszyklus</strong> verantwortet: Shop-Einrichtung, Design-Umsetzung, technische Integration, Kundenübergabe",
+          "Shopware 5 Storefronts aufgebaut; <strong class=\"hl\">Umfang und Kundenkommunikation</strong> eigenständig gemanagt"
+        ]
+      },
+      {
+        "title": "E-Commerce & IT · Verschiedene Rollen",
+        "company": "BN-Pipes · Nebentätigkeit",
+        "date": "2013–2025",
+        "bullets": [
+          "<strong class=\"hl\">E-Commerce-Betrieb eigenständig übernommen</strong> und im Selbststudium weiterentwickelt",
+          "Online-Shop-Infrastruktur, <strong class=\"hl\">Produktpflege und technischen Support</strong> aufgebaut und betreut"
+        ]
+      }
+    ],
+    "projects": [
+      { "title": "Altavio", "stack": "Vue 3 · Vite · Fastify · PostgreSQL · TypeScript · Prisma", "text": "Solo-Fullstack-Projekt: GPX-Tracks werden zu animierten Video-Reels exportiert. Kern sind SVG-Animationen, ein Geo-Layer-System via Overpass API und Drag-Overlays für 1080×1920 Output. Das Rendering läuft über eine eigene Canvas-Pipeline, die Frame-genau mit einem 0–1-Progress-Wert synchronisiert wird. TikTok-Testing wurde frühzeitig zur Feature-Validierung eingesetzt." },
+      { "title": "Furbase", "stack": "Next.js · React", "text": "Tierheim-Matching-Plattform in Next.js und React. Fokus auf serverseitiges Rendering, saubere Komponentenarchitektur und State-Management. Entwickelt als Abschlussprojekt des Full-Stack-Bootcamps mit Blick auf Produktionsreife und Wartbarkeit." }
+    ],
+    "education": [
+      { "title": "Full Stack Developer Programm", "sub": "Professionelles Bootcamp · Node.js, Python, React, Datenbankdesign", "date": "Apr–Aug 2026" },
+      { "title": "Frontend Developer Bootcamp", "sub": "React, JavaScript, HTML, CSS", "date": "Mär–Jul 2022" },
+      { "title": "Fachabitur Technik", "sub": "BOS Scheyern · Abschlussnote 2,8", "date": "2012–2014" },
+      { "title": "Biologisch-technischer Assistent (BTA)", "sub": "Chemieschule Dr. Erwin Elhardt, München", "date": "2006–2009" }
+    ],
+    "banner": ["Remote-First", "Umzugsbereit", "Sofort verfügbar"]
   }
 }

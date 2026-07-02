@@ -18,10 +18,10 @@ vi.mock('react-router-dom', () => ({
 }))
 
 describe('Navbar', () => {
-  it('PDF-Link zeigt DE-Version bei deutscher Sprache', () => {
+  it('Lebenslauf-Link führt zur /resume-Route', () => {
     render(<Navbar />)
-    const link = screen.getByRole('link', { name: /exportPdf/i })
-    expect(link).toHaveAttribute('href', expect.stringContaining('DE'))
+    const link = screen.getByRole('link', { name: /viewResume/i })
+    expect(link).toHaveAttribute('href', '/resume')
   })
 
   it('Sprach-Buttons rufen changeLanguage auf', () => {

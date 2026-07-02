@@ -33,13 +33,9 @@ export default function Navbar() {
             EN
           </button>
         </div>
-        <a
-          className="pdf-btn"
-          href={`/cvs/CV-Philipp-Demmelmair-${currentLang === 'de' ? 'DE' : 'EN'}.pdf`}
-          download
-        >
-          {t('nav.exportPdf')}
-        </a>
+        <NavLink className={() => 'pdf-btn'} to="/resume">
+          {t('nav.viewResume')}
+        </NavLink>
       </div>
     </nav>
   )
