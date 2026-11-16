@@ -27,7 +27,7 @@ describe('Navbar', () => {
   it('Download-Link zeigt auf das Lebenslauf-PDF', () => {
     render(<Navbar />)
     const link = screen.getByRole('link', { name: /exportPdf/i })
-    expect(link).toHaveAttribute('href', '/cvs/CV-Philipp-Demmelmair.pdf')
+    expect(link).toHaveAttribute('href', '/cvs/Lebenslauf_Philipp_Demmelmair.pdf')
     expect(link).toHaveAttribute('download')
   })
 
