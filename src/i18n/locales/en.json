@@ -35,6 +35,7 @@
     "englishLevel": "B2–C1"
   },
   "interests": {
+    "shelter": "🐾 Animal shelter volunteering",
     "cycling": "🚴 Cycling",
     "bikepacking": "🏕️ Bikepacking",
     "nature": "🌲 Nature",
@@ -43,9 +44,19 @@
     "openSource": "🌍 Open Source"
   },
   "about": {
-    "text": "Frontend engineer with <strong>4+ years of production experience</strong> building complex, customer-facing web applications. I care about code that lasts – readable, maintainable, and built with the people using it in mind. Currently expanding into <strong>full-stack development</strong> through a professional bootcamp (April–August 2026). I work best when I have <strong>ownership</strong>, enjoy figuring out ambiguous problems, and genuinely enjoy digging into complex problems until they click."
+    "text": "Frontend engineer with <strong>4+ years of production experience</strong> building complex, customer-facing web applications. I care about code that lasts – readable, maintainable, and built with the people using it in mind. In 2026 I expanded into <strong>full-stack development</strong> through a full-stack bootcamp and my own projects such as <strong>Furbase</strong> and <strong>Altavio</strong>. I work best when I have <strong>ownership</strong>, enjoy figuring out ambiguous problems, and genuinely enjoy digging into complex problems until they click."
   },
   "experience": {
+    "job0": {
+      "title": "Frontend Developer",
+      "company": "stock3, Munich (09/2026–11/2026)",
+      "description": "Migration of a grown legacy system with its own in-house framework to Vue.js. Vue.js, TypeScript, i18n.",
+      "bullets": [
+        "Worked on porting the legacy system to Vue.js, coordinated between three parties",
+        "Built a generic, reusable table component that was adopted by the whole team",
+        "Implemented internationalization (i18n) for the new interface"
+      ]
+    },
     "job1": {
       "title": "Frontend Developer",
       "company": "EXP (formerly exentra) (2022–2026)",
@@ -79,18 +90,18 @@
   "education": {
     "item1": {
       "title": "Full Stack Developer Program",
-      "date": "Professional Bootcamp (Apr 2026–Aug 2026)",
-      "detail": "Node.js, database design, Python, React"
+      "date": "WBS Coding School (Apr 2026–Jul 2026)",
+      "detail": "Node.js, Express, database design, Python, React"
     },
     "item2": {
       "title": "Frontend Developer Bootcamp",
-      "date": "(Mar 2022 – Jun 2022)",
+      "date": "neuefische (Apr 2022–Jul 2022)",
       "detail": "React, JavaScript, HTML, CSS"
     },
     "item3": {
       "title": "Fachabitur",
       "date": "BOS Scheyern (2012–2014)",
-      "detail": "Technical stream, final grade: 2.8"
+      "detail": "Technical stream"
     },
     "item4": {
       "title": "Biological-Technical Assistant (BTA)",
@@ -99,10 +110,22 @@
     }
   },
   "tech": [
-    { "label": "Frontend:", "value": "Vue.js (strong), React (learning), TypeScript, JavaScript, HTML, CSS, AG Grid" },
-    { "label": "Backend:", "value": "Python (learning), Node.js (learning), PostgreSQL, Fastify (basics)" },
-    { "label": "Tools:", "value": "Git, Docker (basics), Modern tooling (Vite, Webpack), Testing" },
-    { "label": "Approach:", "value": "AI-assisted development (Claude Code, Cursor), Agile, Ownership-driven, Scrum, Jira, Confluence" }
+    {
+      "label": "Frontend:",
+      "value": "Vue.js (strong), TypeScript, JavaScript, React, Next.js, HTML, CSS, AG Grid"
+    },
+    {
+      "label": "Backend:",
+      "value": "Node.js, Express, Fastify, PostgreSQL, Drizzle, Prisma, MongoDB, Python"
+    },
+    {
+      "label": "Tools:",
+      "value": "Git, Docker, GitHub Actions, Vite, Turborepo, Testing (Vitest, Playwright)"
+    },
+    {
+      "label": "Approach:",
+      "value": "AI-assisted development (Claude Code, Cursor), Agile, Ownership-driven, Scrum, Jira, Confluence"
+    }
   ],
   "skillDetail": {
     "back": "Back"
@@ -113,10 +136,10 @@
     "vuejs": "My main framework. 4+ years of production experience at EXP – complex, data-intensive web applications for an international client.",
     "git": "Daily use in every project. Branching, reviews, clean commit histories.",
     "typescript": "Used daily at EXP alongside Vue.js. Type safety feels natural to me by now.",
-    "react": "Actively learning – through the bootcamp and this portfolio. Coming from Vue, the transition feels familiar.",
-    "nodejs": "Currently learning in the bootcamp. Built first APIs with Fastify.",
-    "postgresql": "Learning in the bootcamp – database design, queries, relations.",
-    "python": "Used for a data analysis project at EXP (visualizations analyzing prototype scrapping costs). Continuing to learn it in the bootcamp.",
+    "react": "Used in Furbase, Weather Anomalie and this portfolio – together with Next.js (App Router, Server Actions). Coming from Vue, it feels familiar.",
+    "nodejs": "Built APIs with Express and Fastify – for Altavio, Furbase and Weather Anomalie.",
+    "postgresql": "In use in Altavio and Furbase – database design, relations, Drizzle and Prisma as ORMs.",
+    "python": "Used for a data analysis project at EXP (visualizations analyzing prototype scrapping costs) and deepened in the bootcamp.",
     "docker": "Familiar with the basics – containers, images, simple Compose setups."
   },
   "availability": {
@@ -125,44 +148,138 @@
     "available": "✓ Available Now"
   },
   "resume": {
-    "role": "Frontend Engineer · Full-Stack (in progress)",
+    "role": "Frontend Engineer · Full-Stack",
     "sectionLabels": {
       "about": "About Me",
       "highlights": "Highlights",
       "tech": "Technologies",
       "communication": "Communication & Way of Working",
       "experience": "Experience",
-      "projects": "Projects (2)",
+      "projects": "Projects (4)",
       "education": "Education"
     },
-    "about": "I'm a frontend engineer with more than 4 years of experience building complex, customer-facing web applications. My core stack is <strong>Vue.js + TypeScript</strong>. I'm currently expanding into full-stack development through a professional bootcamp (Apr–Aug 2026). I work independently, think in systems, and distill technical topics into clear, actionable points – whether in customer demos, sprint reviews, or retrospectives. I grasp complex relationships quickly and communicate them clearly, even to non-technical stakeholders. Code quality matters to me, but so does the quality of collaboration.",
+    "about": "I'm a frontend engineer with more than 4 years of experience building complex, customer-facing web applications. My core stack is <strong>Vue.js + TypeScript</strong>. In 2026 I expanded into <strong>full-stack development</strong> through a full-stack bootcamp and my own projects such as <strong>Furbase</strong> and <strong>Altavio</strong>. I work independently, think in systems, and distill technical topics into clear, actionable points – whether in customer demos, sprint reviews, or retrospectives. I grasp complex relationships quickly and communicate them clearly, even to non-technical stakeholders. Code quality matters to me, but so does the quality of collaboration.",
     "highlights": [
-      { "num": "4+", "text": "Years of experience as a Frontend Developer" },
-      { "num": "2", "text": "Solo full-stack projects built from scratch" },
-      { "num": "3", "text": "Complete project lifecycles owned independently" }
+      {
+        "num": "4+",
+        "text": "Years of experience as a Frontend Developer"
+      },
+      {
+        "num": "3",
+        "text": "Solo full-stack projects built from scratch"
+      },
+      {
+        "num": "3",
+        "text": "Complete project lifecycles owned independently"
+      }
     ],
     "tech": {
-      "frontend": { "label": "Frontend", "core": ["Vue.js", "TypeScript", "JavaScript", "AG Grid", "Nuxt.js"], "dev": ["React"] },
-      "backend": { "label": "Backend", "tool": ["Node.js", "Python", "PostgreSQL", "Fastify"] },
-      "toolsMethod": { "label": "Tools & Methodology", "core": ["Claude Code", "Vite"], "tool": ["Git", "Docker", "Agile/Scrum"] },
-      "languages": { "label": "Languages", "core": ["German (Native)"], "tool": ["English (B2–C1)"] }
+      "frontend": {
+        "label": "Frontend",
+        "core": [
+          "Vue.js",
+          "TypeScript",
+          "JavaScript",
+          "AG Grid",
+          "Nuxt.js"
+        ],
+        "dev": [
+          "React"
+        ]
+      },
+      "backend": {
+        "label": "Backend",
+        "tool": [
+          "Node.js",
+          "Python",
+          "PostgreSQL",
+          "Fastify"
+        ]
+      },
+      "toolsMethod": {
+        "label": "Tools & Methodology",
+        "core": [
+          "Claude Code",
+          "Vite"
+        ],
+        "tool": [
+          "Git",
+          "Docker",
+          "Agile/Scrum"
+        ]
+      },
+      "languages": {
+        "label": "Languages",
+        "core": [
+          "German (Native)"
+        ],
+        "tool": [
+          "English (B2–C1)"
+        ]
+      }
     },
     "legend": [
-      { "variant": "core", "swatch": "yellow", "text": "Core competency" },
-      { "variant": "dev", "swatch": "outlined", "text": "In progress" },
-      { "variant": "tool", "swatch": "gray", "text": "Tool / methodology" }
+      {
+        "variant": "core",
+        "swatch": "yellow",
+        "text": "Core competency"
+      },
+      {
+        "variant": "dev",
+        "swatch": "outlined",
+        "text": "In progress"
+      },
+      {
+        "variant": "tool",
+        "swatch": "gray",
+        "text": "Tool / methodology"
+      }
     ],
     "communication": [
-      { "title": "Stakeholder & Team", "text": "I have experience with customer demos, sprint reviews, and retrospectives. I translate technical topics into something non-technical stakeholders can act on." },
-      { "title": "Working Independently", "text": "From the first requirements conversation to go-live, I own the entire lifecycle of a feature. Even with unclear specs, I get to a structured result." },
-      { "title": "New Technologies", "text": "I've repeatedly used new technologies productively without formal onboarding. I learn fastest by working directly with the technology itself." },
-      { "title": "AI-Assisted Development", "text": "I use Claude Code deliberately – as a tool to speed up iteration and support quality, not as a replacement for my own understanding." },
-      { "title": "Feedback & Iteration", "text": "I like working in short loops: test early, get feedback quickly, adjust fast. I validated Altavio from day one with real users and TikTok testing." },
-      { "title": "Documentation & Knowledge", "text": "I think in systems and keep knowledge structured – in Obsidian, project notes, or clear code comments. Knowledge should be transferable and traceable." },
-      { "title": "Initiative", "text": "I don't wait to be told what to learn next. Side projects like Altavio come from genuine interest – as a learning ground, experimentation space, and proof of work." },
-      { "title": "Quality Mindset", "text": "Quality doesn't end at clean code for me. I also think about maintainability, user experience, and the people working with the result – both when building and when reviewing." }
+      {
+        "title": "Stakeholder & Team",
+        "text": "I have experience with customer demos, sprint reviews, and retrospectives. I translate technical topics into something non-technical stakeholders can act on."
+      },
+      {
+        "title": "Working Independently",
+        "text": "From the first requirements conversation to go-live, I own the entire lifecycle of a feature. Even with unclear specs, I get to a structured result."
+      },
+      {
+        "title": "New Technologies",
+        "text": "I've repeatedly used new technologies productively without formal onboarding. I learn fastest by working directly with the technology itself."
+      },
+      {
+        "title": "AI-Assisted Development",
+        "text": "I use Claude Code deliberately – as a tool to speed up iteration and support quality, not as a replacement for my own understanding."
+      },
+      {
+        "title": "Feedback & Iteration",
+        "text": "I like working in short loops: test early, get feedback quickly, adjust fast. I validated Altavio from day one with real users and TikTok testing."
+      },
+      {
+        "title": "Documentation & Knowledge",
+        "text": "I think in systems and keep knowledge structured – in Obsidian, project notes, or clear code comments. Knowledge should be transferable and traceable."
+      },
+      {
+        "title": "Initiative",
+        "text": "I don't wait to be told what to learn next. Side projects like Altavio come from genuine interest – as a learning ground, experimentation space, and proof of work."
+      },
+      {
+        "title": "Quality Mindset",
+        "text": "Quality doesn't end at clean code for me. I also think about maintainability, user experience, and the people working with the result – both when building and when reviewing."
+      }
     ],
     "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "stock3",
+        "date": "2026",
+        "bullets": [
+          "Worked on porting a grown <strong>legacy system to Vue.js</strong>, coordinated between <strong class=\"hl\">three parties</strong>",
+          "Built a <strong class=\"hl\">generic table component</strong> that was adopted by the whole team",
+          "Implemented <strong class=\"hl\">internationalization (i18n)</strong> for the new interface"
+        ]
+      },
       {
         "title": "Frontend Developer",
         "company": "EXP (formerly exentra)",
@@ -195,15 +312,53 @@
       }
     ],
     "projects": [
-      { "title": "Altavio", "stack": "Vue 3 · Vite · Fastify · PostgreSQL · TypeScript · Prisma", "text": "Solo full-stack project: GPX tracks are exported as animated video reels. The core is SVG animation, a geo-layer system via the Overpass API, and drag overlays for 1080×1920 output. Rendering runs through a custom canvas pipeline synced frame-accurately to a 0–1 progress value. TikTok testing was used early on for feature validation." },
-      { "title": "Furbase", "stack": "Next.js · React", "text": "Shelter-animal matching platform built with Next.js and React. Focus on server-side rendering, clean component architecture, and state management. Built as the capstone project of the full-stack bootcamp with an eye toward production readiness and maintainability." }
+      {
+        "title": "Furbase",
+        "stack": "Next.js · React · PostgreSQL · Drizzle · Auth.js · Playwright",
+        "text": "Management platform for a real animal shelter (Tierherberge Pfaffenhofen): animal catalogue, adoption requests with checklists, matching wizard, dog-walker volunteer management and an admin area. Bilingual, with an E2E test suite and CI. Live: furbase.onrender.com"
+      },
+      {
+        "title": "Altavio",
+        "stack": "Vue 3 · Vite · Fastify · PostgreSQL · TypeScript · Prisma",
+        "text": "Solo full-stack project: GPX tracks are exported as animated video reels. The core is SVG animation, a geo-layer system via the Overpass API, and drag overlays for 1080×1920 output. Rendering runs through a custom canvas pipeline synced frame-accurately to a 0–1 progress value. TikTok testing was used early on for feature validation."
+      },
+      {
+        "title": "Weather Anomalie",
+        "stack": "Next.js · Express · MongoDB · Leaflet · Turborepo",
+        "text": "Capstone project of the full-stack bootcamp: compares current and historical weather with the 1961–1990 climate normal – for one location or globally on a world map, including an extreme-weather calendar and long-term trend. Live: climate-432q.onrender.com"
+      },
+      {
+        "title": "Chronoboard",
+        "stack": "JavaScript · Obsidian API",
+        "text": "Contributor to an open-source Obsidian plugin for visual, note-native time tracking with day, week and month views."
+      }
     ],
     "education": [
-      { "title": "Full Stack Developer Program", "sub": "Professional Bootcamp · Node.js, Python, React, Database Design", "date": "Apr–Aug 2026" },
-      { "title": "Frontend Developer Bootcamp", "sub": "React, JavaScript, HTML, CSS", "date": "Mar–Jul 2022" },
-      { "title": "Fachabitur (Technical)", "sub": "BOS Scheyern · Final grade 2.8", "date": "2012–2014" },
-      { "title": "Biological-Technical Assistant (BTA)", "sub": "Chemieschule Dr. Erwin Elhardt, Munich", "date": "2006–2009" }
+      {
+        "title": "Full Stack Developer Program",
+        "sub": "WBS Coding School · Node.js, Express, Python, React, Database Design",
+        "date": "Apr–Jul 2026"
+      },
+      {
+        "title": "Frontend Developer Bootcamp",
+        "sub": "neuefische · React, JavaScript, HTML, CSS",
+        "date": "Apr–Jul 2022"
+      },
+      {
+        "title": "Fachabitur (Technical)",
+        "sub": "BOS Scheyern",
+        "date": "2012–2014"
+      },
+      {
+        "title": "Biological-Technical Assistant (BTA)",
+        "sub": "Chemieschule Dr. Erwin Elhardt, Munich",
+        "date": "2006–2009"
+      }
     ],
-    "banner": ["Remote-First", "Open to Relocate", "Available Immediately"]
+    "banner": [
+      "Remote-First",
+      "Open to Relocate",
+      "Available Immediately"
+    ]
   }
 }
