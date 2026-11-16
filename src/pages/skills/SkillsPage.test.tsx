@@ -45,20 +45,20 @@ describe('SkillsPage', () => {
   it('Klick auf Skill zeigt Detail-Ansicht', () => {
     render(<SkillsPage />)
     fireEvent.click(screen.getByRole('button', { name: 'TypeScript', exact: true }))
-    expect(screen.getByText('75%')).toBeInTheDocument()
+    expect(screen.getByText('80%')).toBeInTheDocument()
   })
 
   it('Schließen-Button versteckt Detail-Ansicht', () => {
     render(<SkillsPage />)
     fireEvent.click(screen.getByRole('button', { name: 'TypeScript', exact: true }))
     fireEvent.click(screen.getByRole('button', { name: '✕' }))
-    expect(screen.queryByText('75%')).not.toBeInTheDocument()
+    expect(screen.queryByText('80%')).not.toBeInTheDocument()
   })
 
   it('Filterwechsel schließt offene Detail-Ansicht', () => {
     render(<SkillsPage />)
     fireEvent.click(screen.getByRole('button', { name: 'TypeScript', exact: true }))
     fireEvent.click(screen.getByRole('button', { name: 'Backend', exact: true }))
-    expect(screen.queryByText('75%')).not.toBeInTheDocument()
+    expect(screen.queryByText('80%')).not.toBeInTheDocument()
   })
 })

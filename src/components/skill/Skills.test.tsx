@@ -19,7 +19,7 @@ describe('Skills', () => {
     render(<Skills />)
     fireEvent.click(screen.getByText('TypeScript'))
     expect(screen.getByText('TypeScript')).toBeInTheDocument()
-    expect(screen.getByText('75%')).toBeInTheDocument()
+    expect(screen.getByText('80%')).toBeInTheDocument()
   })
 
   it('returns to grid when back button is clicked', () => {

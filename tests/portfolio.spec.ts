@@ -66,21 +66,21 @@ test.describe('Skills-Seite', () => {
   test('Klick auf Skill zeigt Detail-Ansicht', async ({ page }) => {
     await page.goto('/skills')
     await page.getByRole('button', { name: 'TypeScript', exact: true }).click()
-    await expect(page.getByText('75%')).toBeVisible()
+    await expect(page.getByText('80%')).toBeVisible()
   })
 
   test('Schließen-Button versteckt Detail-Ansicht', async ({ page }) => {
     await page.goto('/skills')
     await page.getByRole('button', { name: 'TypeScript', exact: true }).click()
     await page.getByRole('button', { name: '✕' }).click()
-    await expect(page.getByText('75%')).not.toBeVisible()
+    await expect(page.getByText('80%')).not.toBeVisible()
   })
 })
 
 test.describe('Skill-Interaktion', () => {
   test('Klick auf Skill zeigt Detail-Ansicht', async ({ page }) => {
     await page.getByRole('button', { name: 'TypeScript', exact: true }).click()
-    await expect(page.getByText('75%')).toBeVisible()
+    await expect(page.getByText('80%')).toBeVisible()
   })
 
   test('Zurück-Button bringt zur Skill-Übersicht', async ({ page }) => {
