@@ -1,5 +1,6 @@
 {
   "nav": {
+    "exportPdf": "↓ CV herunterladen",
     "viewResume": "Lebenslauf ansehen",
     "home": "Portfolio",
     "cvLink": "Lebenslauf",
@@ -325,7 +326,7 @@
       {
         "title": "Weather Anomalie",
         "stack": "Next.js · Express · MongoDB · Leaflet · Turborepo",
-        "text": "Abschlussprojekt des Full-Stack-Bootcamps: vergleicht aktuelles und historisches Wetter mit der Klimanormalperiode 1961–1990 – für einen Ort oder global auf der Weltkarte, inklusive Extremwetter-Kalender und Langzeittrend. Live: climate-432q.onrender.com"
+        "text": "Abschlussprojekt des Full-Stack-Bootcamps: vergleicht aktuelles und historisches Wetter mit der Klimanormalperiode 1961–1990 – für einen Ort oder global auf der Weltkarte, inklusive Extremwetter-Kalender und Langzeittrend."
       },
       {
         "title": "Chronoboard",

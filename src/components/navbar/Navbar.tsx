@@ -36,6 +36,9 @@ export default function Navbar() {
         <NavLink className={() => 'pdf-btn'} to="/resume">
           {t('nav.viewResume')}
         </NavLink>
+        <a className="pdf-btn" href="/cvs/CV-Philipp-Demmelmair.pdf" download>
+          {t('nav.exportPdf')}
+        </a>
       </div>
     </nav>
   )

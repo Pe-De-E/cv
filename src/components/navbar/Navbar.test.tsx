@@ -24,6 +24,13 @@ describe('Navbar', () => {
     expect(link).toHaveAttribute('href', '/resume')
   })
 
+  it('Download-Link zeigt auf das Lebenslauf-PDF', () => {
+    render(<Navbar />)
+    const link = screen.getByRole('link', { name: /exportPdf/i })
+    expect(link).toHaveAttribute('href', '/cvs/CV-Philipp-Demmelmair.pdf')
+    expect(link).toHaveAttribute('download')
+  })
+
   it('Sprach-Buttons rufen changeLanguage auf', () => {
     render(<Navbar />)
     fireEvent.click(screen.getByRole('button', { name: 'EN', exact: true }))

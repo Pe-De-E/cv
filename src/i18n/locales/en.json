@@ -1,5 +1,6 @@
 {
   "nav": {
+    "exportPdf": "↓ Download CV (German)",
     "skills": "Skills",
     "viewResume": "View Resume",
     "home": "Portfolio",
@@ -325,7 +326,7 @@
       {
         "title": "Weather Anomalie",
         "stack": "Next.js · Express · MongoDB · Leaflet · Turborepo",
-        "text": "Capstone project of the full-stack bootcamp: compares current and historical weather with the 1961–1990 climate normal – for one location or globally on a world map, including an extreme-weather calendar and long-term trend. Live: climate-432q.onrender.com"
+        "text": "Capstone project of the full-stack bootcamp: compares current and historical weather with the 1961–1990 climate normal – for one location or globally on a world map, including an extreme-weather calendar and long-term trend."
       },
       {
         "title": "Chronoboard",
